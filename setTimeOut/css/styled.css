@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.sec-pai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 132, 255), rgb(255, 254, 254));
+}
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #555;
+  border: 10px #000 solid;
+  border-radius: 10px;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  width: 170px;
+  height: 350px;
+  background-color: #555;
+  border: 10px solid #000;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px 5px rgb(207, 215, 221);
+}
+.red,
+.orange,
+.green {
+  background-color: #333;
+  border: #000 solid 5px;
+  border-top: 10px solid #000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.ativo-r {
+  background-color: red;
+}
+.ativo-o {
+  background-color: orange;
+}
+.ativo-g {
+  background-color: #00e700;
+}
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  background-color: #000;
+  border-radius: 15px;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0px 0px 0px 5px rgb(207, 215, 221);
+}
+.numero {
+  color: #fff;
+  font-size: 15em;
+}
+@media screen and (max-width: 800px) {
+  .sec {
+    width: 450px;
+    padding: 10px;
+  }
+  .div1 {
+    width: 130px;
+    height: 320px;
+  }
+  .red,
+  .orange,
+  .green {
+    width: 80px;
+    height: 80px;
+  }
+  .div2 {
+    width: 250px;
+    height: 250px;
+  }
+}
